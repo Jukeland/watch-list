@@ -5,13 +5,13 @@ Uses MySQL database to hold information about movies and series such as title, d
 If you wish to use the app, download the files, set up your local MySQL database with a username and a password and use them
 on the corresponding fields of the python script like so:
 
-# ---------- CONFIGURE THESE ----------
-DB_CONFIG = {
-    'host': 'localhost',
-    'user': 'your_username', 
-    'password': 'your_password', 
-    'database': 'your_schema' 
-}
+    # ---------- CONFIGURE THESE ----------
+    DB_CONFIG = {
+        'host': 'localhost',
+        'user': 'your_username', 
+        'password': 'your_password', 
+        'database': 'your_schema' 
+    }
 
 After setting the database, run the SQL scripts which create the tables required as well as populate the genres table
 with the predetermined movie/series genres.
