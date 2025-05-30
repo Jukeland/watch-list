@@ -10,9 +10,9 @@ import mysql.connector
 # ---------- CONFIGURE THESE ----------
 DB_CONFIG = {
     'host': 'localhost',
-    'user': 'root', 
-    'password': 'hy460', 
-    'database': 'sys' 
+    'user': 'your_username', 
+    'password': 'your_password', 
+    'database': 'your_schema' 
 }
 
 # ---------- DATABASE FUNCTIONS ----------
